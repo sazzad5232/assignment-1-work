@@ -136,3 +136,52 @@ nav ul li a button {
 .sec-user-num .box-1.box2.box3 {
   gap: 5px;
 }
+
+/* user-review-banner */
+.user-review-banner {
+  height: 342px;
+  width: 1140px;
+  margin: 141px 159px 141px 132px;
+  padding: 32px;
+}
+.review-header {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 42px;
+}
+.description-box1 {
+  height: 232px;
+  width: 366px;
+  background: #eae5e5;
+  border: 0.2px solid rgb(252, 251, 251);
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-left: 9px;
+  padding-bottom: 0px;
+}
+.review-name-box {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.review-name-box img {
+  border-radius: 50%;
+}
+.text-reviewer h4 {
+  margin: 0;
+  padding: 0;
+  font-size: bold;
+  font-weight: 500;
+}
+.text-reviewer.date {
+  font-weight: 200;
+}
+.user-review-description {
+  height: 243px;
+  width: 1140px;
+  display: flex;
+  column-gap: 32px;
+  justify-content: space-between;
+}
