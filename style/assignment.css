@@ -218,6 +218,7 @@ nav ul li a button {
 .form-section input {
   width: 297px;
   padding: 5px;
+  margin-bottom: 5px;
   border-radius: 5px;
   border: none;
 }
@@ -241,6 +242,7 @@ nav ul li a button {
 .form-section button {
   width: 308px;
   padding: 8px;
+  margin-top: 12px;
   border-radius: 5px;
   border: none;
   background-color: #4e47ff;
