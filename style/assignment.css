@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
 
   font-style: normal;
+  background-color: #e5e7ff;
 }
 
 /* header */
@@ -138,6 +139,7 @@ nav ul li a button {
 }
 
 /* user-review-banner */
+
 .user-review-banner {
   height: 342px;
   width: 1140px;
@@ -184,4 +186,109 @@ nav ul li a button {
   display: flex;
   column-gap: 32px;
   justify-content: space-between;
+}
+
+/* form section */
+
+.get-in-touch {
+  height: 632px;
+  width: 1140px;
+  margin: 141px 130px 141px 178px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 162px;
+}
+.form-section {
+  height: 490px;
+  width: 697px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section textarea {
+  height: 135px;
+  width: 297px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.form-section input {
+  width: 297px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.get-in-touch .heading {
+  width: 528px;
+  height: 232px;
+  margin-left: 42px;
+  display: flex;
+  align-items: center;
+}
+.get-in-touch .heading h1 {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.form-section label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.form-section button {
+  width: 308px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4e47ff;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+/* footer */
+
+footer {
+  height: 428px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.footer-con {
+  height: 221px;
+  width: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo h1 {
+  font-size: 67px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.footer-para {
+  text-align: center;
+  color: #8987a1;
+}
+.footer-link ul {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.footer-link ul li {
+  list-style: none;
+}
+.footer-link ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-right: 32px;
 }
