@@ -252,7 +252,7 @@ nav ul li a button {
 
 footer {
   height: 428px;
-  width: 1440px;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
